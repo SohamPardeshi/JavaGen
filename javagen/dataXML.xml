@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<schema>
+	<class className="ControlSignal"  extends="" implements="">
+                <field type="Jaguar " name="liftUp" value="null" parameter="int liftRelay" />
+		<field type="Jaguar " name="pickupMotor" value="null" parameter="int pickupRelay"/>
+		<field type="double " name="lastPosition" value="0.0"/>
+		<constant type="double " name="RAISE_LIFT_SPEED" value="0.0" />
+		<constant type="double " name="LOWER_LIFT_SPEED" value="0.0" /> 
+		<constant type="double " name="SPIN SPEED" value="0.0" /> 
+				 
+	</class>
+</schema>
